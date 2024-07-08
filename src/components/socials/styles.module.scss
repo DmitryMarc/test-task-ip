@@ -1,0 +1,40 @@
+.list {
+  width: 100%;
+  max-width: 554px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    background-color: rgba(#302D2D, .34);
+
+    &__icon {
+      width: 24px;
+      min-width: 24px;
+      height: 24px;
+    }
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    &Description {
+      font-size: 12px;
+      line-height: 12px;
+      color: #828282;
+    }
+
+    &Title {
+      font-size: 20px;
+      line-height: 24px;
+      color: #828282;
+    }
+  }
+}

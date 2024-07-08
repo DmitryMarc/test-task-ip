@@ -1,0 +1,29 @@
+.list {
+  width: 100%;
+  max-width: 554px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+    &__value {
+      font-size: 48px;
+      line-height: 48px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #F2F2F2;
+    }
+
+    &__title {
+      font-size: 18px;
+      line-height: 24px;
+      text-transform: lowercase;
+      color: rgba(#F2F2F2, .3);
+    }
+  }
+}

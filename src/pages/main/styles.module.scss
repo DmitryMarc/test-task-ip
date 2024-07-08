@@ -1,0 +1,56 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  max-width: 1440px;
+  padding: 40px 62px 32px;
+  background:
+          url('../../assets/images/Bitcoin.svg') no-repeat top right 62px / 312px 352px,
+          url('../../assets/images/Litecoin.svg') no-repeat top 277px right 282px / 312px 324px,
+          url('../../assets/images/Ethereum.svg') no-repeat top 508px right 62px / 312px 408px;
+  position: relative;
+
+  &__title {
+    max-width: 1008px;
+    font-size: 84px;
+    font-weight: 700;
+    line-height: 100px;
+    color: #F2F2F2;
+    text-transform: uppercase;
+
+    &__highlight {
+      background-image: linear-gradient(to right, #7C6FCF 20%, #74AEAA 55%, #6FCF97 100%);
+      color: transparent;
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+  }
+
+  &__info {
+    flex: 1;
+    max-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+
+    &__description {
+      font-size: 34px;
+      line-height: 40px;
+      color: #828282;
+    }
+
+    &__btn {
+      font-size: 28px;
+      line-height: 28px;
+      font-weight: 500;
+      text-transform: uppercase;
+      max-width: 532px;
+      padding: 14px;
+      border-radius: 16px;
+      background-image: linear-gradient(to right, #7C6FCF 20%, #74AEAA 55%, #6FCF97 100%);
+    }
+  }
+}
